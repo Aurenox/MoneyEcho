@@ -1,16 +1,113 @@
-# React + Vite
+# MoneyEcho
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Every financial decision leaves an echo.
 
-Currently, two official plugins are available:
+MoneyEcho is an AI-powered financial simulator that helps users understand how today's financial decisions could affect their financial future.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+https://money-echo.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Landing Page
+
+The MoneyEcho landing page introduces the core idea: every financial decision leaves an echo.
+
+![MoneyEcho Landing Page](screenshots/landing.png)
+
+### 2. Financial Profile
+
+Users enter their age, income, expenses, savings, debt, monthly investing, and financial goal to create their personalized financial profile.
+
+![MoneyEcho Financial Profile](screenshots/financial-profile.png)
+
+### 3. Financial Dashboard & Tracker
+
+The dashboard visualizes projected net worth, goal progress, monthly investing, and different financial scenarios through the Money Echo Lab.
+
+![MoneyEcho Dashboard Tracker](screenshots/dashboard.png)
+
+![MoneyEcho Dashboard Tracker](screenshots/dashboard-tracker.png)
+
+### 4. AI Financial Coach
+
+Users can ask Gemini questions about their financial decisions and receive a concise verdict, reasoning, recommended action, and long-term financial echo.
+
+![MoneyEcho AI Coach](screenshots/ai-coach.png)
+## 💡 What is MoneyEcho?
+
+Most personal finance apps show users what happened to their money.
+
+MoneyEcho shows users **what could happen next**.
+
+Users enter their financial information and get an illustrative future projection. They can then change a financial decision and instantly see how that choice could affect their projected net worth.
+
+## ✨ Features
+
+- Personal financial profile
+- 12-year net-worth projection
+- Interactive investment simulator
+- Financial goal tracking
+- Money Echo Lab for "what-if" scenarios
+- Buy-a-car simulation
+- Moving-cost simulation
+- Raise simulation
+- Debt simulation
+- Increased-investment simulation
+- Gemini AI financial coach
+- Positive, neutral, and warning AI signals
+- Responsive dark fintech interface
+
+## 🤖 AI Financial Coach
+
+MoneyEcho uses **Google Gemini** to help users understand financial tradeoffs.
+
+Example questions:
+
+- Can I afford a $30,000 car?
+- Should I invest more or save more?
+- How can I reach my first $100k faster?
+
+The AI response is organized into:
+
+**Verdict → Why → Best Move → Your Money Echo**
+
+This makes the response easier to understand than a traditional chatbot conversation.
+
+## 📊 Financial Simulation
+
+MoneyEcho uses an illustrative monthly compounding model.
+
+The projection uses a 7% annual investment-return assumption and considers the user's available monthly surplus.
+
+The purpose is to show the potential long-term impact of decisions, not to predict actual investment performance.
+
+## 🛠️ Built With
+
+- React
+- Vite
+- JavaScript
+- Tailwind-CSS
+- Node.js
+- Express
+- Google-Gemini-API
+- Generative-AI
+- Recharts
+- Lucide-React
+
+## 🔄 How It Works
+
+```text
+Create Profile
+      ↓
+See Financial Projection
+      ↓
+Change One Decision
+      ↓
+See The Financial Echo
+      ↓
+Ask Gemini AI
+      ↓
+Make A Better Decision
