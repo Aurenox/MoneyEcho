@@ -111,3 +111,28 @@ See The Financial Echo
 Ask Gemini AI
       ↓
 Make A Better Decision
+```
+
+## Business Potential & Market Advantage
+
+### How It Can Make Money
+
+MoneyEcho can use a **freemium model**. The basic simulator can be free, while premium features can include advanced AI coaching, detailed financial plans, unlimited scenarios, and advanced simulations.
+
+### Why It's Unique
+
+Most finance apps focus on **tracking the past**. MoneyEcho focuses on **understanding the future**.
+
+Users can change a financial decision and instantly see its potential long-term impact.
+
+**Decision → Simulation → Impact → Better Decision**
+
+### Our Market Advantage
+
+- **Simple:** Easy-to-understand financial insights.
+- **Interactive:** Users can experiment with real-life financial decisions.
+- **Personalized:** AI uses the user's financial profile.
+- **Action-focused:** Helps users understand what to do next.
+- **Expandable:** Can grow into savings, debt, investing, and financial planning.
+
+MoneyEcho aims to become a **financial decision engine** that helps people understand the potential consequences of their choices before making them.
