@@ -113,7 +113,7 @@ Ask Gemini AI
 Make A Better Decision
 ```
 
-## Business Potential & Market Advantage
+## 💰 Business Potential & Market Advantage
 
 ### How It Can Make Money
 
